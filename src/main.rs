@@ -1,3 +1,5 @@
+mod lexer;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", lexer::Lexer::new().lex_text("".to_string()));
 }
