@@ -6,7 +6,7 @@ fn test() -> Result<Error, bool>{
     [string] last_name = name_as_list.pop();
     [string] first_name = name_as_list.pop();
     if name_as_list.len > 0 {
-        Err(Error, "Arse Hole")
+        Err(Error, "A Hole")
     }
 }
 
